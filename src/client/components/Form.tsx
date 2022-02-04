@@ -87,7 +87,7 @@ const Form: React.FC<FormProps> = props => {
                     console.log(error.config);
                 })
             // If the user has made a mistake while filling out the form, they'll get a specific error message.
-            // If they've done more than one error, or there's an error we can't track, they'll get a general message.
+            // If there's an error we can't track, they'll get a general message.
         } else if (props.name.length === 0) {
             Swal.fire(
                 'Something Went Wrong!',
