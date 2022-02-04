@@ -37,8 +37,6 @@ const App: React.FC<AppProps> = props => {
 				alert('Something went wrong! Check your connection or reload the page')
 			});
 	}, [])
-
-	// Setting up handler function for the submit button
 	
 	return (
 		<Home
